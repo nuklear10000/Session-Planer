@@ -1,4 +1,4 @@
-# Table-Repo
+# Session-Planner
 
 This is a school project to manage time slots
 
