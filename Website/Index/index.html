@@ -8,12 +8,16 @@
 </head>
 <body>
     <div>
-    <form class="login">
+      
+    <form class="login" type = "post" >
       <p class="title">Log in</p>
-      <input type="text" placeholder="Termin erstellen" autofocus/>
-      <input type="password" placeholder="ka wos ma do mochn" />
-        <button class="button">Login</button>   
+      <input type= "text" placeholder= "Termin erstellen" name = "nickname" autofocus/>
+      Create <input class="button"> type = "submit">   
     </form>
+    <?php
+     $nickname = $_POST["nickname"];
+     //database connection erstellen 
+      ?>
   </footer>
     </p>
   </div>
