@@ -6,7 +6,7 @@ Leitung : nuke
 
 Html + Design : Redbread 22
 
-Php + java script : mave
+Php : mave
 
 Database + Server: nuke (mave)
 
