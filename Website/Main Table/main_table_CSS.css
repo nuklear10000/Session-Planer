@@ -1,98 +1,84 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    height: 100;
-    background: url("mountains-login.jpg") 50% fixed;
-    background-size: cover;
-  }
+  background: aliceblue;
+  font-family: primary-font;
+  height: 100%;
+}
   
-  * {
-    box-sizing: border-box;
-  }
-  
-  .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column; 
-    justify-content: center;
-    width: 20%;
-    min-height: 20%;
-    padding: 20px;
-    max-width: 65rem;
-    width: 30%;
-    margin: 10rem auto;
-    padding: 5rem;
-    text-align: center;
-    background: #fff;
-    border: 0.5rem solid gray;
-  }
-  
-  
-  .login {
-    
-    border-radius: 2px 2px 5px 5px;
-    padding: 10px 20px 20px 20px;
-    width: 90%;
-    height: 310px;
-    max-width: 500px;
-    background: #ffffff;
-    position: relative;
-    padding-bottom: 80px;
-    box-shadow: 0px 1px 5px ;
-    left: 18cm;
-    top: 5cm;
-    
-      }  
-      
-    
-    input {
-      display: block;
-      padding: 15px 10px;
-      margin-bottom: 10px;
-      width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 2px;
-      color: #ccc;
-      
-      }
-
-    .title {
-      color: #444;
-      font-size: 1.2em;
-      font-weight: bold;
-      margin: center;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 20px;
-      position: center;
-    }
-    
-    .button {
-      width: 100%;
-      height: 100%;
-      padding: 10px 10px;
-      background: lightsalmon;
-      color: black;
-      display: block;
-      border: 2px;
-      margin-top: 50px;
-      position: absolute;
-      max-height: 60px;
-      cursor: pointer;
-      right: 0cm;
-      
-    }
-    .button:hover {
-        background-color: lightsalmon;
-        box-shadow: 1px black;
-        transform: translateY(4px);
-        
-      }
-
-  
-  footer {
-    display: block;
-    padding-top: 50px;
-    text-align: center;
-    color: #ddd;
-    font-weight: normal;
+  h1 {
+    color: light-navy;
     font-size: 0.8em;
-    }
+    line-height: 2;
+  }
+  
+  input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75em;
+    background: #3d566e;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+  }
+  
+  input[type="time"]{
+    font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  input[type="submit"]{
+    background: lighten(red, 5%);
+    cursor: pointer;
+  }
+  
+  .half {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .day-picker {
+    margin-bottom: 0.5em;
+  }
+  
+  .day-picker li {
+    font-size: 0.8em;
+    display: inline-block;
+    background: lighten(navy, 5%);
+    padding: 0.5em;
+    color: light-navy;
+    cursor: pointer;
+    width: calc(100% / 5 - 1.15em);
+    text-align: center;
+    border: 1px solid;
+    margin-right: -1px;
+    
+  }
+  
+  .day-picker li.day-selected {
+    color: white;
+    position: relative;
+  }
+  
+  .color-picker {
+    margin: 0 auto 0.5em;
+    text-align: center;
+  }
+  
+  .color-picker li {
+    display: inline-block;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.6;
+    
+  }
+  
+  .color-picker li.color-selected {
+    border: 2px solid white;
+    opacity: 1;
+  }
