@@ -4,13 +4,13 @@ This is a school project to manage time slots
 
 Leitung : nuke
 
-Html + Design : Redbread 22
+Html + Design : Redbread 22 + mxrkz 
 
-Php + java script : mave
+Php : mave
 
-Database + Server: nuke (mave)
+Database + Server: nuke + meganix
 
-Derzeit Arbeitslos: mxrkz + meganix
+Derzeit Arbeitslos: 
 
 
 
