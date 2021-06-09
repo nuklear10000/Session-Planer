@@ -5,7 +5,16 @@ body {
   * {
     box-sizing: border-box;
   }
-  .button{
+  h1{
+    font-size: 300%;
+    text-align: center;
+  }
+  h2{
+    font-size: 200%;
+    background: lightblue;
+    text-align: center;
+  }
+  .new_button{
     width: 20%;
     height: 100%;
     padding: 10px 10px;
@@ -17,8 +26,9 @@ body {
     position: absolute;
     max-height: 60px;
     cursor: pointer;
+    left: 30%;
   }
-  .button2{
+  .ok_button{
     width: 20%;
     height: 100%;
     padding: 10px 10px;
@@ -30,17 +40,25 @@ body {
     position: absolute;
     max-height: 60px;
     cursor: pointer;
-    right: 0cm;
+    right: 30%;
   }
-  .button:hover{
-    background-color: lightblue;
+  .new_button:hover{
+    background-color: aqua;
     box-shadow: 1px black;
-    width: 25%;
     transform: translateY(4px);
   }
-  .button2:hover{
-    background-color: lightsalmon;
+  .ok_button:hover{
+    background-color: orange;
     box-shadow: 1px black;
-    width: 25%;
     transform: translateY(4px);
+  }
+  input{
+    background: lightgray;
+    width: 15%;
+    height: 50px;
+    position: center;
+    bottom: 10%;
+  }
+  input:hover{
+    background: palegreen;
   }
