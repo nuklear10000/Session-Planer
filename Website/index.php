@@ -14,12 +14,11 @@
       <input type= "text" placeholder= "Termin erstellen" name = "nickname" autofocus/>
        <input class="button">   
     </form>
-<<<<<<< HEAD
-=======
+
     <php>
 
     </php>
->>>>>>> f675ea07e5716dc5e25142fc908b6e2e437e8ec5
+
   </footer>
     </p>
   </div>
