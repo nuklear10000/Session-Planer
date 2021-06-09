@@ -12,5 +12,7 @@ Database + Server: nuke + meganix
 
 Derzeit Arbeitslos: 
 
+Immer mittwochs Besprechung
+
 
 
