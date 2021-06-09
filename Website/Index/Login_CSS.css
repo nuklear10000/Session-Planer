@@ -51,8 +51,6 @@ body {
       width: 100%;
       border: 1px solid #ddd;
       border-radius: 2px;
-      color: #ccc;
-      
       }
 
     .title {
@@ -81,7 +79,7 @@ body {
       
     }
     .button:hover {
-        background-color: lightsalmon;
+        background-color: lightblue;
         box-shadow: 1px black;
         transform: translateY(4px);
         
