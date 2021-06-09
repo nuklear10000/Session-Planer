@@ -1,0 +1,98 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100;
+  background: url("mountains-login.jpg") 50% fixed;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 20%;
+  min-height: 20%;
+  padding: 20px;
+  max-width: 65rem;
+  width: 30%;
+  margin: 10rem auto;
+  padding: 5rem;
+  text-align: center;
+  background: #fff;
+  border: 0.5rem solid gray;
+}
+
+
+.login {
+
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px 20px 20px;
+  width: 90%;
+  height: 310px;
+  max-width: 500px;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 80px;
+  box-shadow: 0px 1px 5px ;
+  left: 18cm;
+  top: 5cm;
+
+    }
+
+
+  input {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #ccc;
+
+    }
+
+  .title {
+    color: #444;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    position: center;
+  }
+
+  .button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    background: lightsalmon;
+    color: black;
+    display: block;
+    border: 2px;
+    margin-top: 50px;
+    position: absolute;
+    max-height: 60px;
+    cursor: pointer;
+    right: 0cm;
+
+  }
+  .button:hover {
+      background-color: lightsalmon;
+      box-shadow: 1px black;
+      transform: translateY(4px);
+
+    }
+
+
+footer {
+  display: block;
+  padding-top: 50px;
+  text-align: center;
+  color: #ddd;
+  font-weight: normal;
+  font-size: 0.8em;
+  }
