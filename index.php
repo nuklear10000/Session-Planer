@@ -13,7 +13,7 @@
       <p class="title">Create Session</p>
       <input type= "text" placeholder= "Topic" name = "topic" autofocus/>
       <input type= "text" placeholder= "Nickname" name = "nickname" autofocus/>
-       <button class="button">Create</button>
+       <button class="button" action = "Logic/calculating_logic.php">Create</button>
     </form>
   </footer>
     </p>
