@@ -1,8 +1,8 @@
 <?php
 function connectToDatabase(){
-    $connection = mysqli_connect("localhost","Data-Admin","%Hgfr13");
+    $connection = mysqli_connect('localhost','Data-Admin','%Hg3fr13');
     $db = mysqli_select_db($connection,'Session-Database');
-    if (!$connection) {
+    if (!$connection) {5
         echo('Verbindung schlug fehl:');
     }else{
         echo 'Erfolgreich verbunden';
