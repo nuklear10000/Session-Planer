@@ -1,4 +1,13 @@
 <?php
+print("php datei verbunden");
+
+if(isset($_POST["nickname"])||isset($_POST["sessionName"])){
+    global $nickname = $_POST["nickname"];
+    global $nickname = $_POST["sessionName"];
+    
+}
+
+
 
 function saveToDatabase(){
     connectToDatabase();
