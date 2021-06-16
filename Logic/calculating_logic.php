@@ -8,6 +8,6 @@ if(isset($_POST["nickname"])||isset($_POST["sessionName"])){
     
 }
 $statement = "INSERT INTO Sessions (Name,Nickname) VALUES ('Englisch-lern','Mave')";
-saveToDatabase($statement);
+saveToDatabase();
 
 ?>

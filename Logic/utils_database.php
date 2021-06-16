@@ -8,7 +8,7 @@ function connectToDatabase(){
         echo 'Erfolgreich verbunden';
     }
    
-    $sql_statement = "INSERT INTO Sessions (Name,Nickname) VALUES ('Englisch-lern','Mave')";
+    $sql_statement = "INSERT INTO Sessions (Name,Nickname,PK) VALUES ('Englisch-lern','Mave',3)";
     if(!mysqli_query($connection,$sql_statement)){
         echo("Inserted");
     }
@@ -18,4 +18,6 @@ function connectToDatabase(){
 
 function saveToDatabase(){
     connectToDatabase();
+
+
 }
