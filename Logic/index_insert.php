@@ -8,9 +8,10 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
    saveToDatabase($statement);
    echo "everything executed";
 }
-$nickname = $_POST["nickname"];
+   $nickname = $_POST["nickname"];  
    $sessionName = $_POST["sessionName"];
    $statement = "INSERT INTO Sessions (Name,Nickname) VALUES (\"$sessionName\",\"$nickname\")";
+   print_r($_POST);
    print "<br>";
    print $statement;
    print "<br>";
