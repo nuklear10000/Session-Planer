@@ -11,6 +11,9 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
 $nickname = $_POST["nickname"];
    $sessionName = $_POST["sessionName"];
    $statement = "INSERT INTO Sessions (Name,Nickname) VALUES (\"$sessionName\",\"$nickname\")";
+   print "<br>";
+   print $statement;
+   print "<br>";
    saveToDatabase($statement);
    echo "everything executed";
 
