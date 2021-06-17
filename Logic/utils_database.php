@@ -6,18 +6,14 @@ function connectToDatabase(){
         echo'Verbindung schlug fehl:' ;
     }else{
         echo 'Erfolgreich verbunden';
+        return $connection;
     }
-   
-    $sql_statement = "INSERT INTO Sessions (Name,Nickname,PK) VALUES ('Englisch-lern','Mave',3)";
-    if(!mysqli_query($connection,$sql_statement)){
-        echo("Inserted");
-    }
-    mysqli_close($connection);
-    echo"Connection established and closed";
+}
+function executeStatement($connection, $sql_statement){
+ mysqli_query($connection,$sql_statement);
 }
 
-function saveToDatabase(){
-    connectToDatabase();
-
-
+function saveToDatabase($sql_statement){
+    $connection = connectToDatabase();
+    executeStatement($connection,$sql_statement);
 }
