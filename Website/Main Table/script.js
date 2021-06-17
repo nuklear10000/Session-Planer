@@ -83,5 +83,8 @@ document.querySelector(".next").addEventListener("click", () => {
   renderCalendar();
 });
 
+function dateclicked() {
+    alert(date);
+  }
 
 renderCalendar();
