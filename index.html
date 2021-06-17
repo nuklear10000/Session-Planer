@@ -9,11 +9,12 @@
 <body>
     <div>
 
-    <form class="login" type = "POST" >
+    <form class="login" type = "POST" action="Logic/index_insert.php" >
       <p class="title">Create Session</p>
       <input type= "text" placeholder= "Topic" name = "topic" autofocus/>
       <input type= "text" placeholder= "Nickname" name = "nickname" autofocus/>
-      <button onclick="location.href='Logic/calculating_logic.php'" class="button">Create new Session</button>
+      <!--<button onclick="location.href='Logic/index_insert.php'" class="button">Create new Session</button>-->
+      <input type= "submit" value = "create session " class = "button">
       </form>
   </footer>
     </p>
