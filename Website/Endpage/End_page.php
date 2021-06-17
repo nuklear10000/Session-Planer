@@ -10,9 +10,16 @@
 </head>
 <body>
     <div class="anzeige">
-    <h1>@mave Vorgeschlagener Termin</h1>
-    <h2>@mave Name (bsp: Civ spielen)</h2>
-    <h2>@mave Hier steht der eigene termin wenn man auf "new" gedrückt hat</h2>
+        <?php
+        include_once '../../Logic/utils_database.php';
+        $statement = "SELECT FROM "
+        executeStatement($statement);
+
+        ?>
+
+    <h1>Vorgeschlagener Termin</h1>
+    <h2>Name  (bsp: Civ spielen)</h2>
+    <h2>Hier steht ein Termin</h2>
     </div>
 
     <div class="buttons">
@@ -20,6 +27,7 @@
         <input class="new_button" type="submit" value="New" />
     </form>
 
+    
     <form>
         <input class="ok_button" type="submit" value="OK" />
     </form>
