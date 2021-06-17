@@ -38,7 +38,7 @@ body {
   position: relative;
   padding-bottom: 80px;
   box-shadow: 0px 1px 5px ;
-  left: 18cm;
+  margin: auto;
   top: 5cm;
 
     }
@@ -64,9 +64,9 @@ body {
     padding-bottom: 20px;
     position: center;
   }
-
-  .button {
-    width: 100%;
+  
+  .create_button {
+    width: 30%;
     height: 100%;
     padding: 10px 10px;
     background: lightsalmon;
@@ -77,10 +77,11 @@ body {
     position: absolute;
     max-height: 60px;
     cursor: pointer;
-    right: 0cm;
-
+    margin: auto;
+    bottom: 35%;
+    margin-left: 34.5%;
   }
-  .button:hover {
+  .create_button:hover {
       background-color: lightsalmon;
       box-shadow: 1px black;
       transform: translateY(4px);
