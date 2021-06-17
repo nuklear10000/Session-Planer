@@ -6,6 +6,7 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
    $sessionName = $_POST["sessionName"];
    $statement = "INSERT INTO Sessions (Name,Nickname) VALUES ($sessionName,$nickname)";
    saveToDatabase($statement);
+   echo "everything executed";
 }
-   
+
 ?>
