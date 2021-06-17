@@ -16,6 +16,6 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
    print $statement;
    print "<br>";
    saveToDatabase($statement);
-   echo "everything executed";
+   //echo "everything executed";
 
 ?>

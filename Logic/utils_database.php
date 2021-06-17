@@ -11,11 +11,11 @@ function connectToDatabase(){
 }
 function executeStatement($connection, $sql_statement){
  mysqli_query($connection,$sql_statement);
- echo"execute sucsess";
+ //echo"execute sucsess";
 }
 
 function saveToDatabase($sql_statement){
     $connection = connectToDatabase();
     executeStatement($connection,$sql_statement);
-    echo "saveToSucsess";
+  //  echo "saveToSucsess";
 }
