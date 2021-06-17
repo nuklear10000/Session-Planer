@@ -19,3 +19,7 @@ function saveToDatabase($sql_statement){
     executeStatement($connection,$sql_statement);
   //  echo "saveToSucsess";
 }
+function getFromDatabase($sql_statement){
+    $connection = connectToDatabase();
+    executeStatement($connection,$sql_statement);
+}

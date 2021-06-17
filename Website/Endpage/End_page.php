@@ -12,8 +12,8 @@
     <div class="anzeige">
         <?php
         include_once '../../Logic/utils_database.php';
-        $statement = "SELECT FROM "
-        executeStatement($statement);
+        $statement = "SELECT FROM //@TODO";
+        getFromDatabase($statement);
 
         ?>
 
