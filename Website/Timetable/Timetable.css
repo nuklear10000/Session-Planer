@@ -1,0 +1,111 @@
+.tabelle {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.button_struktur{
+    grid-template-columns: auto auto auto;
+}
+
+.ok_button {
+    width: 20%;
+    height: 100%;
+    padding: 10px 10px;
+    background: lightsalmon;
+    color: black;
+    display: block;
+    border: 2px;
+    margin-top: 50px;
+    position: absolute;
+    max-height: 60px;
+    cursor: pointer;
+    bottom: 20%;
+}
+
+.ok_button:hover {
+    background-color: orange;
+    box-shadow: 1px black;
+    transform: translateY(4px);
+}
+.button1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.item1{
+
+}
+.item2{
+    
+}
+.item3{
+    
+}
+.item4{
+    
+}
+.item5{
+    
+}
+.item6{
+    
+}
+.item7{
+    
+}
+.item8{
+    
+}
+.item9{
+    
+}
+.item10{
+    
+}
+.item11{
+    
+}
+.item12{
+    
+}
+.item13{
+    
+}
+.item14{
+    
+}
+.item15{
+    
+}
+.item16{
+    
+}
+.item17{
+    
+}
+.item18{
+    
+}
+.item19{
+    
+}
+.item20{
+    
+}
+.item21{
+    
+}
+.item22{
+    
+}
+.item23{
+    
+}
+.item24{
+    
+}
