@@ -12,7 +12,7 @@
     <div class="anzeige">
         <?php
         include_once '../../Logic/utils_database.php';
-        $statement = "SELECT FROM //@TODO";
+        $statement = "SELECT FROM sessions WHERE Name = \"";
         getFromDatabase($statement);
 
         ?>
