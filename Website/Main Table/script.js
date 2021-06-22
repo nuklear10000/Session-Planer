@@ -65,7 +65,7 @@ const renderCalendar = () => {
       days += `<div class="today">${i}</div>`;
     } else {
       days += `<div>${i}</div>`;
-    }
+    } 
   }
 
   for (let j = 1; j <= nextDays; j++) {
@@ -76,10 +76,12 @@ const renderCalendar = () => {
 
 function myFunction() {
   var MyDiv1 = document.getElementById('DIV1');
-    if(MyDiv1.innerHTML.includes("<div>1</div>")) {
-      alert("1");
+    if(MyDiv1.innerHTML.isS("<div>1</div>")) {
+      alert("true");
+    } else {
+      alert("false");
     }
-    /* if(MyDiv1.innerHTML.includes("2")) {             change lin 67 with  days += `<div>${i}</div>`; "tipp"
+    /* if(MyDiv1.innerHTML.includes("2")) {             change line 67 with  days += `<div>${i}</div>`; "tipp"
       alert("2");
     } 
     if(MyDiv1.innerHTML.includes("3")) {
