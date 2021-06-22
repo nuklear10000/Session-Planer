@@ -79,7 +79,7 @@ function myFunction() {
     if(MyDiv1.innerHTML.includes("<div>1</div>")) {
       alert("1");
     }
-    /* if(MyDiv1.innerHTML.includes("2")) {
+    /* if(MyDiv1.innerHTML.includes("2")) {             change lin 67 with  days += `<div>${i}</div>`; "tipp"
       alert("2");
     } 
     if(MyDiv1.innerHTML.includes("3")) {
