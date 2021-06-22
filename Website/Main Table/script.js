@@ -1,3 +1,10 @@
+function myFunction() {
+  var MyDiv1 = document.getElementById('DIV1');
+     var MyDiv2 = document.getElementById('DIV2');
+     MyDiv2.innerHTML = MyDiv1.innerHTML;
+     alert(MyDiv2.innerHTML);
+}
+
 const date = new Date();
 
 const renderCalendar = () => {
@@ -78,11 +85,5 @@ document.querySelector(".next").addEventListener("click", () => {
   date.setMonth(date.getMonth() + 1);
   renderCalendar();
 });
-
-function myFunction() {
-  var x = document.getElementById("myBtn").textContent;
-  document.getElementById("demo").innerHTML = x;  
-  alert(x);
-}
 
 renderCalendar();
