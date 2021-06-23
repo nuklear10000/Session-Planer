@@ -84,16 +84,25 @@ document.querySelector(".next").addEventListener("click", () => {
   renderCalendar();
 });
 
-
-
-function myFunction(){ 
+/*function myFunction(){ 
 var elementIsClicked = true;
 alert("myElement1");
   }
+  */
+
 function myFunction3(){
-  var test = document.getElementById("myElement1").innerHTML;
-  var test2 = document.getElementById("myElement2").innerHTML;
-  alert(test);
-  alert(test2);
+  var myElement1 = document.getElementById("myElement1");
+  var myElement2 = document.getElementById("myElement2");
+
+  if (myElement1.addEventListener) {
+    myElement1.addEventListener("click", function() {
+        alert(myElement1.innerHTML);
+    });
+
+   } if (myElement2.addEventListener) {
+      myElement2.addEventListener("click", function() {
+          alert(myElement2.innerHTML);
+      });
+}
 }
 renderCalendar();
