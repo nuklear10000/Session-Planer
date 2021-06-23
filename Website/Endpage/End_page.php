@@ -12,13 +12,8 @@
     <div class="anzeige">
         <?php
         include_once '../../Logic/utils_database.php';
-<<<<<<< Updated upstream:Website/Endpage/End_page.php
         $statement = "SELECT FROM sessions WHERE Name = \"";
         getFromDatabase($statement);
-=======
-        $statement = "SELECT FROM "
-        executeStatement($statement);
->>>>>>> Stashed changes:Website/Endpage/End_page.html
 
         ?>
 
