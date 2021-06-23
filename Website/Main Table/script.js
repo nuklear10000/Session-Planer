@@ -1,5 +1,5 @@
 function myFunction2() {
-    var MyDiv1 = document.getElementById('DIV1');
+    var MyDiv1 = document.getElementById('myElement');
      alert(MyDiv1.innerHTML);
 }
 
@@ -64,7 +64,7 @@ const renderCalendar = () => {
     ) {
       days += `<div class="today">${i}</div>`;
     } else {
-      days += `<div id="myElement">${i}</div>`;
+      days += `<div id="myElement${i}">${i}</div>`;
     } 
   }
 
