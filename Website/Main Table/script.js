@@ -1,3 +1,8 @@
+function myFunction2() {
+    var MyDiv1 = document.getElementById('DIV1');
+     alert(MyDiv1.innerHTML);
+}
+
 const date = new Date();
 
 const renderCalendar = () => {
@@ -59,8 +64,8 @@ const renderCalendar = () => {
     ) {
       days += `<div class="today">${i}</div>`;
     } else {
-      days += `<div>${i}</div>`;
-    }
+      days += `<div id="myElement">${i}</div>`;
+    } 
   }
 
   for (let j = 1; j <= nextDays; j++) {
@@ -79,4 +84,17 @@ document.querySelector(".next").addEventListener("click", () => {
   renderCalendar();
 });
 
+
+
+function myFunction(){ 
+var elementIsClicked = false;
+var element = document.getElementById('myElement');
+element.addEventListener('click', clickHandler);
+
+function clickHandler(){ 
+  elementIsClicked = true;
+  alert(elementIsClicked);
+
+  }
+} 
 renderCalendar();
