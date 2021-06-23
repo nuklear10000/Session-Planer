@@ -87,14 +87,13 @@ document.querySelector(".next").addEventListener("click", () => {
 
 
 function myFunction(){ 
-var elementIsClicked = false;
-var element = document.getElementById('myElement');
-element.addEventListener('click', clickHandler);
-
-function clickHandler(){ 
-  elementIsClicked = true;
-  alert(elementIsClicked);
-
+var elementIsClicked = true;
+alert("myElement1");
   }
-} 
+function myFunction3(){
+  var test = document.getElementById("myElement1").innerHTML;
+  var test2 = document.getElementById("myElement2").innerHTML;
+  alert(test);
+  alert(test2);
+}
 renderCalendar();
