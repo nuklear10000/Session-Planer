@@ -1,7 +1,9 @@
+/*
 function myFunction2() {
   var MyDiv1 = document.getElementById('myElement');
   alert(MyDiv1.innerHTML);
 }
+*/
 
 const date = new Date();
 
@@ -86,7 +88,6 @@ document.querySelector(".next").addEventListener("click", () => {
 
 renderCalendar();
 
-function myFunction() {
   var myElement1 = document.getElementById("myElement1");
   var myElement2 = document.getElementById("myElement2");
   var myElement3 = document.getElementById("myElement3");
@@ -123,6 +124,7 @@ function myFunction() {
 
   if (myElement1.addEventListener) {
     myElement1.addEventListener("click", function () {
+      // window.location = "https://www.amazon.de/";
       alert(myElement1.innerHTML);
     });
 
@@ -251,4 +253,3 @@ function myFunction() {
       alert(myElement31.innerHTML);
     });
   }
-}
