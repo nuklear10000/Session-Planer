@@ -103,4 +103,15 @@ html {
 .next-date {
   opacity: 0.5;
 }
+.today {
+  background-color: lightsalmon;
+
+}
+
+.today:hover{
+  border: 0.2rem solid #777;
+  cursor: pointer;
+
+
+}
 
