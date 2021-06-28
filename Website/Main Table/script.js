@@ -1,7 +1,9 @@
+/*
 function myFunction2() {
-    var MyDiv1 = document.getElementById('DIV1');
-     alert(MyDiv1.innerHTML);
+  var MyDiv1 = document.getElementById('myElement');
+  alert(MyDiv1.innerHTML);
 }
+*/
 
 const date = new Date();
 
@@ -63,10 +65,7 @@ const renderCalendar = () => {
       date.getMonth() === new Date().getMonth()
     ) {
       days += `<div class="today">${i}</div>`;
-    } else {
-      days += `<div>${i}</div>`;
     } 
-  }
 
   for (let j = 1; j <= nextDays; j++) {
     days += `<div class="next-date">${j}</div>`;
@@ -183,4 +182,3 @@ document.querySelector(".next").addEventListener("click", () => {
   renderCalendar();
 });
 
-renderCalendar();
