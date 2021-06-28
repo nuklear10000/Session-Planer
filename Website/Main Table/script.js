@@ -252,6 +252,7 @@ renderCalendar();
     myElement31.addEventListener("click", function () {
       alert(myElement31.innerHTML);
     });
+  }
 
   }
 
