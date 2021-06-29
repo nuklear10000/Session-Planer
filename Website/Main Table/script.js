@@ -253,8 +253,3 @@ renderCalendar();
       alert(myElement31.innerHTML);
     });
   }
-
-  }
-
-  }
-
