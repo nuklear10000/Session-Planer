@@ -65,11 +65,8 @@ const renderCalendar = () => {
     } else {
       days += `<div id="myElement${i}">${i}</div>`;
     }
-<<<<<<< Updated upstream
   }
-=======
-  } 
->>>>>>> Stashed changes
+  
 
   for (let j = 1; j <= nextDays; j++) {
     days += `<div class="next-date">${j}</div>`;
