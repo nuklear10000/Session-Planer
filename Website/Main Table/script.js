@@ -60,19 +60,19 @@ const renderCalendar = () => {
   }
 
   for (let i = 1; i <= lastDay; i++) {
-    if (
-      i === new Date().getDate() &&
-      date.getMonth() === new Date().getMonth()
-    ) {
+    if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
       days += `<div class="today">${i}</div>`;
     } else {
       days += `<div id="myElement${i}">${i}</div>`;
     }
+<<<<<<< Updated upstream
   }
+=======
+  } 
+>>>>>>> Stashed changes
 
   for (let j = 1; j <= nextDays; j++) {
     days += `<div class="next-date">${j}</div>`;
-    monthDays.innerHTML = days;
   }
 };
 
