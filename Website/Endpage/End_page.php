@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="End_page_css.css">
     <title>End_Page</title>
-
+    
 </head>
 <body>
     <div class="anzeige">
-    <h1>@mave Vorgeschlagener Termin</h1>
-    <h2>@mave Name (bsp: Civ spielen)</h2>
-    <h2>@mave Hier steht der eigene termin wenn man auf "new" gedrückt hat</h2>
+    <?php
+    $name = $_SESSION["sessionName"];
+    echo "<h2> "+$name+"<h2 >";
+    ?>
     </div>
 
     <div class="buttons">
