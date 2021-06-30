@@ -53,12 +53,11 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
           <div>Fri</div>
           <div>Sat</div>
         </div>
-<!--
+
         <form method = "POST">
         <div class="days"></div>
         </form>
--->
-        <button type ="button" href = "../Website/Timetable/Timetable.html">Enter Time</button>
+        <button type ="button" action = "../Website/Timetable/Timetable.html">Enter Time</button>
   
     <script src="test_script.js" type="text/javascript"></script>
     
