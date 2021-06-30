@@ -1,4 +1,16 @@
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:lightgrey;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: lightgreen;
+}
 .tabelle {
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
@@ -7,7 +19,8 @@
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
+    border: solid white;
 }
 .button_struktur{
     grid-template-columns: auto auto auto;
@@ -26,6 +39,7 @@
     max-height: 60px;
     cursor: pointer;
     bottom: 20%;
+    right: 40%;
 }
 
 .ok_button:hover {
