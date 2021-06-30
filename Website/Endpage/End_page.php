@@ -10,9 +10,10 @@
 </head>
 <body>
     <div class="anzeige">
-    <h1>@mave Vorgeschlagener Termin</h1>
-    <h2>@mave Name (bsp: Civ spielen)</h2>
-    <h2>@mave Hier steht der eigene termin wenn man auf "new" gedrückt hat</h2>
+    <?php
+    $name = $_SESSION["sessionName"];
+    echo "<h2> "+$name+"<h2 >";
+    ?>
     </div>
 
     <div class="buttons">
