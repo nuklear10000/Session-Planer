@@ -23,7 +23,7 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="stylesheet" href="../Main Table/style.css" />
+    <link rel="stylesheet" href="Main Table/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -58,6 +58,6 @@ if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
 
 <input type="submit">
 
-    <script src="../Main Table/script.js" type="text/javascript"></script>
+    <script src="Main Table/script.js" type="text/javascript"></script>
   </body>
 </html>
