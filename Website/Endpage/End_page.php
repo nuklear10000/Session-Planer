@@ -17,7 +17,7 @@
     </div>
 
     <div class="buttons">
-    <form action="../Main Table/Index.html">
+    <form action="../../index.html">
         <input class="new_button" type="submit" value="New" />
     </form>
 
