@@ -2,8 +2,9 @@
 include_once 'utils_database.php';
 if(isset($_POST["nickname"])&&isset($_POST["sessionName"])){
     //session speichern
-    setcookie("sessionName",$_POST["sessionName"]);
+    setcookie("sessionName","the name of the Session",time()+30*60*24*60);
 }
+//$_POST["sessionName"]
   
    $nickname = $_POST["nickname"];  
    $sessionName = $_POST["sessionName"];

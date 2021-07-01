@@ -11,7 +11,7 @@
 <body>
     <div class="anzeige">
     <?php
-    $name = $_SESSION["sessionName"];
+    $name = $_COOKIE["sessionName"];
     echo "<h2> "+$name+"<h2 >";
     ?>
     </div>
