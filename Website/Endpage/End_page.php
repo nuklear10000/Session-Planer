@@ -11,13 +11,13 @@
 <body>
     <div class="anzeige">
     <?php
-    $name = $_SESSION["sessionName"];
+    $name = $_COOKIE["sessionName"];
     echo "<h2> "+$name+"<h2 >";
     ?>
     </div>
 
     <div class="buttons">
-    <form action="../Main Table/Index.html">
+    <form action="../../index.html">
         <input class="new_button" type="submit" value="New" />
     </form>
 
